@@ -1,7 +1,43 @@
 function agerating(){
-    var feedback = document.getElementById("feedback").value;
-var age1= document.getElementById("Salary").value;
-feedback=age1
+    var Age = document.getElementById("Age").value;
+    document.getElementById("feedback").innerHTML = Age;
 }
+function Answer(){
+    var output;
+ var Party= document.getElementById("Party").innerHTML;
+ var Salary = document.getElementById("Salary").innerHTML;
+var Age = document.getElementById("Age").value;
 
-document.getElementById("salary").innerHTML = feedback
+
+
+
+if (Party== "Republican" && Age >= 25){
+    output = "Vanilla";}
+
+// else if (){
+//     output= "";}
+// else if (){
+//     output= "";}
+// else if (){
+//     output= "";}
+// else if (){
+//     output= "";}
+// else if (){
+//     output= "";}
+// else if (){
+//     output= "";}
+// else if (){
+//     output= "";}
+// else if (){
+//     output= "";}
+// else if (){
+//     output= "";}
+// else if (){
+//     output= "";}
+// else if (){
+//     output= "";}
+// else if (){
+//     output= "";}
+
+
+document.getElementById("output").innerHTML = output}
