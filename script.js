@@ -14,10 +14,10 @@ var Age = document.getElementById("Age").value;
 if (Party== "Republican" && Age >= 25){
     output = "Vanilla";}
 
-// else if (){
-//     output= "";}
-// else if (){
-//     output= "";}
+else if (Party== "Democrat" && Age <= 12){
+    output= "Chocolate";}
+else if (Party== "){
+    output= "";}
 // else if (){
 //     output= "";}
 // else if (){
@@ -41,3 +41,4 @@ if (Party== "Republican" && Age >= 25){
 
 
 document.getElementById("output").innerHTML = output}
+
