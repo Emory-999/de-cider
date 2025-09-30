@@ -1,15 +1,19 @@
+//This lets you input age on a slider
 function agerating(){
     var Age = document.getElementById("Age").value;
     document.getElementById("feedback").innerHTML = Age;
 }
+
+//This gets the element Id from the party, salary, and age you input.
 function Answer(){
     var output;
  var Party= document.getElementById("Party").value;
  var Salary = document.getElementById("Salary").value;
 var Age = document.getElementById("Age").value;
-
+//This makes it so if your ... is ... then Vanilla will appear wi
 if (Party== "Republican" && Age >= 25 && Salary != "really rich"){
     output = "Vanilla";
+    document.getElementById("image").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvhWcCJbUESapVgTJ6gM26zEg_Kx3UEDbYpg&s"
 }
 else if (Party== "Democrat" && Age >= 13 && Salary != "really rich"){
     output= "Chocolate";
