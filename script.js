@@ -4,42 +4,34 @@ function agerating(){
 }
 function Answer(){
     var output;
- var Party= document.getElementById("Party").innerHTML;
- var Salary = document.getElementById("Salary").innerHTML;
+ var Party= document.getElementById("Party").value;
+ var Salary = document.getElementById("Salary").value;
 var Age = document.getElementById("Age").value;
 
-
-
-
-if (Party== "Republican" && Age >= 25){
-    output = "Vanilla";}
-
-else if (Party== "Democrat" && Age <= 12){
+if (Party== "Republican" && Age >= 25 && Salary != "really rich"){
+    output = "Vanilla";
+}
+else if (Party== "Democrat" && Age >= 13 && Salary != "really rich"){
     output= "Chocolate";}
-else if (Party== "Libertarian" && Age >= 17){
-    output= "Strawberry";}
-else if (Party== "Green" && Age >= 80){
-    output= "Pistachio";}
-else if (Party== "Republican" && Age >= 6){
-    output= "Mint Chocolate Chip";}
-else if (Party== "Libertarian" && Age >= 32){
-    output= "Cookies and Cream";}
-else if (Party== "Green" && Age <= 48){
-    output= "Chocolate Chip Cookie Dough";}
-else if (Party== "Other" && Age >= 12){
-    output= "Rocky Road";}
-else if (Party== "Other" && Age <= 11){
-    output= "Butter Pecan";}
-else if (Party== "Other" && Age >= 21){
-    output= "Coffee";}
-else if (Party== "Republican" && Age < 10){
-    output= "Birthday Cake";}
-else if (Party== "Democrat" && Age <= 99){
+else if (Party== "Democrat" && Age <= 12 && Salary != "really rich"){
     output= "Cotton Candy";}
-else if (Party== "Democrat" && Age <= 1){
-    output= "Cider";}
-
+else if (Party== "Libertarian" && Age <= 24 && Salary != "really rich"){
+    output= "Strawberry";}
+else if (Party== "Green" && Age >= 50 && Salary != "really rich"){
+    output= "Pistachio";}
+else if (Party== "Republican" && Age <= 24 && Salary != "really rich"){
+    output= "Mint Chocolate Chip";}
+else if (Party== "Libertarian" && Age >= 25 && Salary != "really rich"){
+    output= "Cookies and Cream";}
+else if (Party== "Green" && Age <= 49 && Salary != "really rich"){
+    output= "Chocolate Chip Cookie Dough";}
+else if (Party== "Other" && Age >= 12 && Salary != "really rich"){
+    output= "Butter Pecan";}
+else if (Party== "Other" && Age <= 11 && Salary != "really rich"){
+    output= "Coffee";}
+else{
+    output= "Cider Ice Cream!!"
+}
 
 document.getElementById("output").innerHTML = output}
-
 
