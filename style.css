@@ -9,6 +9,7 @@ body{
   margin-bottom: 10px;
   background-color: white;
   padding: 5px;
+  border-radius: 10px;
 }
 
 button{
@@ -24,6 +25,7 @@ header{
   padding: 20px;
   margin-bottom: 10px;
   font-size: 50px;
+  border-radius: 10px;
 }
 
 select{
@@ -46,3 +48,6 @@ input{
 .slider:hover {
   opacity: 1; /* Fully shown on mouse-over */
 }
+
+
+
