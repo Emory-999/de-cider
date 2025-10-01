@@ -1,3 +1,4 @@
+
 //This lets you input age on a slider
 function agerating(){
     var Age = document.getElementById("Age").value;
@@ -53,7 +54,7 @@ document.getElementById("image").src = "https://celebratingsweets.com/wp-content
 //This makes it so if your ... is ... then Butter Pecan will appear in the html
 else if (Party== "Other" && Age >= 12 && Salary != "really rich"){
     output= "Butter Pecan";
-document.getElementById("image").src = "https://feelslikehomeblog.com/wp-content/uploads/2023/04/No-Churn-Butter-Pecan-Ice-Cream-Recipe-square.png"
+document.getElementById("image").src = "https://feelslikehomeblog.com/wp-content/uploads/2023/04/No-Churn-Butter-Pecan-Ice-Cream-Recipe-square.png"}
 //This makes it so if your ... is ... then Coffee will appear in the html
 else if (Party== "Other" && Age <= 11 && Salary != "really rich"){
     output= "Coffee";
